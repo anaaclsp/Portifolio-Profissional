@@ -1,34 +1,37 @@
-/*letra-fonte importada*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap');
 
 
 /*animação para div de "ola.."*/
-@keyframes animacaotxt
-{
-    from{ background-color:rgb(58, 68, 100)}
-    to{background-color:rgb(39, 51, 62)}
+@keyframes animacaotxt {
+    from {
+        background-color: rgb(58, 68, 100)
+    }
+
+    to {
+        background-color: rgb(39, 51, 62)
+    }
 }
 
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Roboto Mono', sans-serif;
-    color:white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', sans-serif;
+    color: white;
 }
 
-body{
+body {
     height: 100vh;
-    background-image: url('../imgs/portifolio.model.jpg'); 
+    background-image: url('../imgs/portifolio.model.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color:#13131f;
+    background-color: #13131f;
 }
 
 
-nav.menu-lateral{
+nav.menu-lateral {
 
     width: 50px;
     height: 100%;
@@ -36,377 +39,373 @@ nav.menu-lateral{
     padding: 40px 0px 40px 1%;
     box-shadow: 3px 0px 0px #a99ceb1b;
     position: fixed;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     overflow: hidden;
     transition: .7s;
 }
 
-nav.menu-lateral:hover{
-    width:300px;
+nav.menu-lateral:hover {
+    width: 300px;
 }
 
-.btn-expandir{
+.btn-expandir {
     width: 100%;
-    padding-right:10px;
+    padding-right: 10px;
 
 }
 
-.btn-expandir > i{
-    color:white;
-    font-size:24px;
-    cursor:pointer;
+.btn-expandir>i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
 
 }
 
-ul{
-    height:100%;
-    list-style-type:none;
+ul {
+    height: 100%;
+    list-style-type: none;
 
 }
 
-ul li.menu-items:hover{
-background:#edeae81f;
+ul li.menu-items:hover {
+    background: #edeae81f;
 }
-ul li.menu-items{
+
+ul li.menu-items {
     transition: .1s;
 }
 
-ul li.menu-items a{
-color:white;
-text-decoration: none;
-font-size:20px;
-padding:20px 4%;
-display:flex;
-line-height: 40px;
+ul li.menu-items a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+    display: flex;
+    line-height: 40px;
 }
 
-ul li.menu-items a .text-link{
-    margin-left:25px;
+ul li.menu-items a .text-link {
+    margin-left: 25px;
 
 }
 
-ul li.menu-items a .icon>i{
+ul li.menu-items a .icon>i {
     font-size: 25px;
-    margin-right:15px;
+    margin-right: 15px;
 }
 
-nav div.btn-expandir i
-{
+nav div.btn-expandir i {
     position: relative;
-    left:0.2px;
-    font-size:30px;
+    left: 0.2px;
+    font-size: 30px;
 
 }
 
 /*foto pessoal de inicio do site*/
 .divfotoperfil {
-    position: absolute; 
-    top: 30%; 
-    left: 22%; 
+    position: absolute;
+    top: 30%;
+    left: 22%;
     z-index: 10;
 }
 
 .divfotoperfil img {
-    width: 370px; 
-    height: auto; 
-    border-radius: 70%; 
+    width: 370px;
+    height: auto;
+    border-radius: 70%;
     box-shadow: 0 0 10px rgba(202, 202, 211, 0.311);
-    border:5px solid #271c21;
+    border: 5px solid #271c21;
 }
 
 /*texto principal do inicio da página*/
-.divtxt
-{
-    z-index:2;
+.divtxt {
+    z-index: 2;
     position: absolute;
-    left:50%;
-    top:48%;
+    left: 50%;
+    top: 48%;
     background-color: rgb(56, 72, 131);
-    animation-name:animacaotxt;
-    animation-duration:4s;
-    animation-iteration-count:infinite;
+    animation-name: animacaotxt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
     background-color: #1e1e1e;
     padding: 2px;
-    border: 2px solid #0c3b47; /* Borda colorida */
-    border-radius: 9px; /* Bordas arredondadas */
+    border: 2px solid #0c3b47;
+    /* Borda colorida */
+    border-radius: 9px;
+    /* Bordas arredondadas */
     box-shadow: 0 0 10px rgba(78, 80, 204, 0.5);
 }
 
-#sobre
-{
+#sobre {
     background-color: rgba(240, 248, 255, 0.079);
     position: relative;
-    top:53vw;
-    left:23vw;
-    width:50vw;
+    top: 53vw;
+    left: 23vw;
+    width: 50vw;
     height: 25vw;
     justify-content: center;
     border-radius: 15px;
-    padding:3vw;
-    
+    padding: 3vw;
+
 
 }
 
-#sobre h1
-{
+#sobre h1 {
     position: relative;
     text-align: center;
-    bottom:1.5vw;
+    bottom: 1.5vw;
 }
 
-#sobre h3
-{
+#sobre h3 {
     position: relative;
     text-align: justify;
-    top:-15px;
+    top: -15px;
 }
 
-#educ
-{
+#educ {
     background-color: rgba(240, 248, 255, 0.079);
     position: relative;
-    top:63vw;
-    left:23vw;
-    width:50vw;
+    top: 63vw;
+    left: 23vw;
+    width: 50vw;
     height: 25vw;
     justify-content: center;
     border-radius: 15px;
-    padding:3vw;
+    padding: 3vw;
 }
 
-#hab
-{
+#hab {
     background-color: rgba(240, 248, 255, 0.079);
     position: relative;
-    top:73vw;
-    left:23vw;
-    width:50vw;
+    top: 73vw;
+    left: 23vw;
+    width: 50vw;
     height: 25vw;
     justify-content: center;
     border-radius: 15px;
-    padding:3vw;
+    padding: 3vw;
 
 }
 
-#tecno
-{
-    background-color: rgba(240, 248, 255, 0.079);
-    position: relative;
-    top:83vw;
-    left:23vw;
-    width:50vw;
-    height: 25vw;
-    justify-content: center;
-    border-radius: 15px;
-    padding:3vw;
-
+#hab ul {
+    margin-bottom: -35%;
 }
 
-#proj
-{
+#tecno {
     background-color: rgba(240, 248, 255, 0.079);
     position: relative;
-    top:93vw;
-    left:23vw;
-    width:50vw;
+    top: 83vw;
+    left: 23vw;
+    width: 50vw;
     height: 25vw;
     justify-content: center;
     border-radius: 15px;
-    padding:3vw;
+    padding: 3vw;
 
 }
 
 /*Contatos*/
-.divicons section
-{
+.divicons section {
     position: absolute;
     z-index: 1;
     display: flex;
     list-style-type: none;
-    top:227vw;
-    left:35%;
-    padding:4vw;
-    justify-content:center;
-    
+    top: 187vw;
+    left: 35%;
+    padding: 4vw;
+    justify-content: center;
+
 }
 
-.icon-large
- {
-    font-size: 2rem; 
- }
+.icon-large {
+    font-size: 2rem;
+}
 
- .icon-largetec
- {
+.icon-largetec {
     font-size: 4rem;
- }
-
-
- nav ul li span:hover
- {
-    color:rgb(59, 42, 145);
- }
-
-div a span
-{
-    margin:20px;
 }
 
-.transgit
-{
-    transition:transform 1s;
+
+nav ul li span:hover {
+    color: rgb(59, 42, 145);
 }
 
-.transgit:hover{
-    transform:scale(1.5);
+div a span {
+    margin: 20px;
+}
+
+.transgit {
+    transition: transform 1s;
+}
+
+.transgit:hover {
+    transform: scale(1.5);
 
 }
 
-.transphone
-{
-    transition:transform 1s;
+.transphone {
+    transition: transform 1s;
 }
 
-.transphone:hover{
-    transform:scale(1.5);
-
-}
-
-.translinke
-{
-    transition:transform 1s;
-}
-
-.translinke:hover{
-    transform:scale(1.5);
+.transphone:hover {
+    transform: scale(1.5);
 
 }
 
-.transmail
-{
-    transition:transform 1s;
+.translinke {
+    transition: transform 1s;
 }
 
-.transmail:hover{
-    transform:scale(1.5);
-
-}
-
-.transtecno
-{
-    transition:transform 1s;
-}
-
-.transtecno:hover{
-    transform:scale(1.5);
+.translinke:hover {
+    transform: scale(1.5);
 
 }
 
-.transtecno2
-{
-    transition:transform 1s;
+.transmail {
+    transition: transform 1s;
 }
 
-.transtecno2:hover{
-    transform:scale(1.5);
-
-}
-
-.transtecno3
-{
-    transition:transform 1s;
-}
-
-.transtecno3:hover{
-    transform:scale(1.5);
+.transmail:hover {
+    transform: scale(1.5);
 
 }
 
-.transtecno4
-{
-    transition:transform 1s;
+.transtecno {
+    transition: transform 1s;
 }
 
-.transtecno4:hover{
-    transform:scale(1.5);
-
-}
-
-.transtecno5
-{
-    transition:transform 1s;
-}
-
-.transtecno5:hover{
-    transform:scale(1.5);
+.transtecno:hover {
+    transform: scale(1.5);
 
 }
 
-a.btsubir
-{
-    width:200px;
-    height:40px;
-    border-radius:25px;
-    background-color:white;
-    color:black;
+.transtecno2 {
+    transition: transform 1s;
+}
+
+.transtecno2:hover {
+    transform: scale(1.5);
+
+}
+
+.transtecno3 {
+    transition: transform 1s;
+}
+
+.transtecno3:hover {
+    transform: scale(1.5);
+
+}
+
+.transtecno4 {
+    transition: transform 1s;
+}
+
+.transtecno4:hover {
+    transform: scale(1.5);
+
+}
+
+.transtecno5 {
+    transition: transform 1s;
+}
+
+.transtecno5:hover {
+    transform: scale(1.5);
+
+}
+
+a.btsubir {
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
     position: relative;
-    top:100vw;
-    left:42vw;
+    top: 85vw;
+    left: 42vw;
     display: flex;
     cursor: pointer;
     text-align: center;
     justify-content: center;
     text-decoration: none;
-    padding:8px;
+    padding: 8px;
 }
 
-a.btsubir:hover
-{
-    color:rgb(59, 42, 145);
+a.btsubir:hover {
+    color: rgb(59, 42, 145);
 }
 
-footer
-{
+footer {
     position: absolute;
     width: 100%;
-    height: 50px; /* Ajuste conforme necessário */
+    height: 50px;
+    /* Ajuste conforme necessário */
     color: #fff;
     text-align: center;
-    line-height: 50px; /* Ajuste conforme necessário */
-    top:236vw;
+    line-height: 50px;
+    /* Ajuste conforme necessário */
+    top: 195vw;
 }
 
-section div.tecnoicon i
-{
+
+
+section div.tecnoicon i {
     position: relative;
     padding: 5px;
 }
 
-a.btsubir:hover
-{
-    color:rgb(59, 42, 145);
+a.btsubir:hover {
+    color: rgb(59, 42, 145);
 }
 
-.divicons span i:hover
-{
-    color:rgb(59, 42, 145);
+.divicons span i:hover {
+    color: rgb(59, 42, 145);
 }
 
 
-#toggle-theme
-{
-    position:relative;
-    left:89vw;
-    bottom:127vw;
-    color:black;
-    background-color:rgb(83, 79, 110);
-    border-radius: 15px;
-    padding:0.5vw;
+/*inicio da responsividade*/
+
+@media (max-width: 320px) {
+    .divfotoperfil img {
+        position: relative;
+        bottom: 160px;
+        left: 33px;
+        width: 150px;
+    }
+
+    #inicio {
+        position: relative;
+        justify-content: flex;
+        margin-right: 60%;
+        width: 90%;
+        height: 20%;
+        font-size: 0.7em;
+    }
+
+    #sobre {
+        position: relative;
+        top: 10%;
+        font-size: 0.7em;
+        width: 100%;
+        height: 35%;
+    }
+
 }
 
-/* Tema claro */
-body.light-theme {
-    background-color:#808084;
-    color: black;
-    
-  }
+
+
+@media (min-width: 321px) and (max-width: 480px) {
+    /* Estilos específicos para dispositivos com largura entre 321px e 480px */
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+    /* Estilos específicos para dispositivos com largura entre 481px e 768px */
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    /* Estilos específicos para dispositivos com largura entre 769px e 992px */
+}
