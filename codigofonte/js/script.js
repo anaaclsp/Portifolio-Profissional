@@ -26,9 +26,3 @@ document.addEventListener('DOMContentLoaded', function() {
     window.addEventListener('scroll', adjustFooter);
     adjustFooter(); // Ajusta o footer ao carregar a página
 });
-
-// script.js
-document.getElementById('toggle-theme').addEventListener('click', function() {
-    document.body.classList.toggle('light-theme');
-    document.body.classList.toggle('dark-theme');
-  });
